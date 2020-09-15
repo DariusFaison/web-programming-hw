@@ -13,3 +13,5 @@ console.log('negatives:', negatives);
 const fruit = ['apple', 'orange', 'apple', 'banana', 'kiwi', 'apple'];
 const apples = count(fruit, f => f === 'apple');
 console.log('apples:', apples);
+
+//adding this comment so that I can make a new PR
