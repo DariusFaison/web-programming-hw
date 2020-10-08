@@ -1,8 +1,3 @@
-/* TODO: Create an Pet class with a constructor and a speak method.
-         The constructor should take a single argument, the name of the pet.
-         The speak method should write to the console the message "<name> makes a noise."
-*/
-
 class Pet 
 {
     constructor(name)
@@ -15,11 +10,6 @@ class Pet
     }
 }
 
-/* TODO: Create an Dog class that extends the Pet class.
-         It should have a constructor and a speak method.
-         The constructor should take a single argument, the name of the pet and call the super class constructor.
-         The speak method should write to the console the message "<name> says woof, woof."
-*/
 class Dog extends Pet
 {
     constructor(name)
@@ -33,12 +23,6 @@ class Dog extends Pet
     }
 }
 
-
-/* TODO: Create a Cat class that extends the Pet class.
-         It should have a constructor and a speak method.
-         The constructor should take a single argument, the name of the pet and call the super class constructor.
-         The speak method should write to the console the message "<name> says meow."
-*/
 class Cat extends Pet
 {
     constructor(name)
