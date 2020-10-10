@@ -1,13 +1,38 @@
-body{
-    color: slategrey
-}
-
-head{
-    color: grey;
-    font-size: x-large;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 h1 {
 color:firebrick;
+}
+
+*{
+    background-color: wheat;
+}
+
+ul {
+    font-size: auto;
+    font-weight: normal;
+}
+
+#top{
+    font-family: sans-serif;
+    font-size: 50px;
+    height: auto;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 25vw;
+}
+
+#middle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 25px;
+    height:50%;
+    width: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 50vh;
+    left:45vw;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
 }
