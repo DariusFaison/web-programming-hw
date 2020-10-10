@@ -47,7 +47,7 @@ ul {
     width: auto;
     font-weight: bold;
     position: absolute;
-    top: 50vh;
+    top: 20vh;
     left:45vw;
 }
 
@@ -56,3 +56,8 @@ ul {
     width: 200px;
 }
 
+.picture{
+    position: fixed;
+    bottom: 10vh;
+    left: 40vw;
+}
