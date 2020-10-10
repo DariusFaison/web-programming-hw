@@ -1,5 +1,21 @@
-h1 {
-color:firebrick;
+@keyframes fade{
+    0% {
+        color: firebrick;
+    }
+    25%{
+        color: coral;
+    }
+
+    50%{
+        color: pink;
+    }
+
+    75%{
+        color: coral;
+    }
+    100% {
+        color: firebrick;
+    }
 }
 
 *{
@@ -19,6 +35,9 @@ ul {
     position: fixed;
     top: 0;
     left: 25vw;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
 }
 
 #middle{
@@ -36,3 +55,4 @@ ul {
     display: inline-block;
     width: 200px;
 }
+
