@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+$hd-orange: #f96302;
+
+h1 {
+    color: $hd-orange;
+}
+
+.header {
+    color: rgb(160, 160, 160);
+}
+
+.product {
+    margin: 0 auto;
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 200px auto 100px 100px 100px;
+    grid-column-gap: 40px;
+}

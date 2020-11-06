@@ -1,0 +1,63 @@
+main {
+    border-radius: 15px;
+}
+
+nav {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+select {
+    margin-left: 10px;
+}
+
+.refresh {
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+
+blockquote {
+    padding: 10px;
+}
+
+.quotation {
+    font-size: 30px;
+    margin: 0 auto;
+    quotes: '\201C''\201D''\2018''\2019';
+    padding: 10px 20px;
+    line-height: 1.4;
+}
+
+.quotation:before {
+    content: open-quote;
+    display: inline;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    color: #ccc;
+    font-size: 3em;
+}
+.quotation::after {
+    content: close-quote;
+    display: inline;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    color: #ccc;
+    font-size: 3em;
+}
+footer {
+    margin: 20px 0;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+}
