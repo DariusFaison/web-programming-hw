@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import axios from 'axios';
 
 export default function Yeezy() {
 
   const [yeezy, setYeezy] = useState(() => {
-    console.log("placeholder for Kanye West quotes");
-    return 0;
+    console.log("WWYD?");
+    return "A wise Kanye once said...";
   })
 
 
@@ -20,8 +20,10 @@ export default function Yeezy() {
 
   return (
     <>
+    <div className="Content">
       <button onClick={getYeezy}>New Quotes</button>
-      <blockquote>{yeezy}</blockquote>
+      <p>{yeezy}</p>
+    </div>
     </>
   );
 }

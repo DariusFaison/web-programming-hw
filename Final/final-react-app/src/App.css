@@ -1,3 +1,11 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100 vh;
+  text-align: center;
+  background-color: #7f8286;
+}
+
 .App {
   text-align: center;
 }
@@ -14,14 +22,53 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  flex: 1 0 auto;
+  background-color: #7f8286;
+  width: 100vw;
+  min-height: 10vh;
+  font-size: 5vh;
+  color: white;
+  font-family: 'Modak', cursive;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+p {
+  animation-duration: 5s;
+  animation-name: fade;
+  animation-timing-function: fade-in-out;
+  animation-iteration-count: infinite;
+  font-size: 5vh;
+}
+
+button {
+  flex:1 0 auto;
+  background-color:transparent;
+  font-size: larger;
+  font-family: 'Modak', cursive, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  width: 20vw;
+  color: white;
+}
+
+.Content{
+  flex: 3 0 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100 vw;
+  min-height: 80 vh;
+  text-align: center;
+  background-color: #7f8286;
+  font-family: 'Modak', cursive;
+}
+
+.Footer{
+  background-color: #7f8286;
+  width: 100vw;
+  min-height: 10vh;
+  flex: 1 0 0;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .App-link {
@@ -38,13 +85,7 @@
 }
 
 @keyframes fade {
-  from {color: black;}
+  from {color: white;}
   to {color: crimson;}
 }
 
-blockquote {
-  animation-duration: 5s;
-  animation-name: fade;
-  animation-timing-function: fade-in-out;
-  animation-iteration-count: infinite;
-}

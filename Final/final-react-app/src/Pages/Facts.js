@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState} from 'react';
 import axios from 'axios';
 
 export default function Facts() {
   const [facts, setFacts] = useState(() => {
-    console.log("placeholder for facts");
-    return 0;
+    console.log("Wanna hear something interesting?");
+    return "Random Facts For Your Reading Pleasure";
   });
 
   function getFacts() {
@@ -18,8 +18,10 @@ export default function Facts() {
 
   return (
     <>
+    <div className="Content">
       <button onClick={getFacts}>New Fact</button>
-      <blockquote>{facts}</blockquote>
+      <p>{facts}</p>
+    </div>
     </>
   );
 }
