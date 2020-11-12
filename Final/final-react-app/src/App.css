@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fade {
+  from {color: black;}
+  to {color: crimson;}
+}
+
+blockquote {
+  animation-duration: 5s;
+  animation-name: fade;
+  animation-timing-function: fade-in-out;
+  animation-iteration-count: infinite;
+}

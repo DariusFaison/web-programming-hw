@@ -12,6 +12,17 @@ body {
   align-items: center;
 }
 
+@keyframes fade {
+  from {color: black;}
+  to {color: crimson;}
+}
+
+blockquote {
+  animation-duration: 1s;
+  animation: fade;
+  animation-timing-function: ease-in-out;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

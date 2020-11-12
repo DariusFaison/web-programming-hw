@@ -9,28 +9,35 @@ function App() {
     return 0;
   });
 
-  const [pics, setPics] = useState(() => {
-    console.log("placeholder for pics");
+  const [yeezy, setYeezy] = useState(() => {
+    console.log("placeholder for Kanye West quotes");
     return 0;
   })
 
 
   function getFacts() {
-    axios.get('https://uselessfacts.jsph.pl/random.txt?language=en').then(res => {
-      setFacts(res.data);
+    axios.get('https://uselessfacts.jsph.pl/random.json?language=en').then(res => {
+      setFacts(res.data['text']);
+      console.log(res);
     }).catch(err => {
       console.log(err)
     })
   }
-  function getPics() {
-    console.log("I'm also returning something!");
+  function getYeezy() {
+    axios.get('https://api.kanye.rest').then(res => {
+      setYeezy(res.data['quote']);
+      console.log(res);
+    }).catch(err => {
+      console.log(err)
+    })
   }
 
   return (
     <>
       <button onClick={getFacts}>New Fact</button>
-      <span>{facts}</span>
-      <button onClick={getPics}>New Pic</button>
+      <blockquote>{facts}</blockquote>
+      <button onClick={getYeezy}>New Quotes</button>
+      <blockquote>{yeezy}</blockquote>
     </>
   );
 }
