@@ -1,0 +1,64 @@
+{
+    "players": [
+        {
+            "name": "iPlayGames_TTV",
+            "platform": "PC",
+            "rank": "copper",
+            "kd": 0.3
+        },
+        {
+            "name": "JagerMain",
+            "platform": "PC",
+            "rank": "platinum",
+            "kd": 1.9
+        },
+        {
+            "name": "smurf.",
+            "platform": "Xbox",
+            "rank": "silver",
+            "kd": 2.1
+        },
+        {
+            "name": "CasualLegend",
+            "platform": "Xbox",
+            "rank": "unranked",
+            "kd": 0.8
+        },
+        {
+            "name": "SweatyTryHard",
+            "platform": "Xbox",
+            "rank": "gold",
+            "kd": 1.1
+        },
+        {
+            "name": "MnK.",
+            "platform": "PS4",
+            "rank": "champion",
+            "kd": 2.2
+        },
+        {
+            "name": "xxLORD_SALTxx",
+            "platform": "PS4",
+            "rank": "silver",
+            "kd": 0.7
+        },
+        {
+            "name": "ImNotToxic",
+            "platform": "PS4",
+            "rank": "silver",
+            "kd": 0.9
+        },
+        {
+            "name": "BEASTMODE1987",
+            "platform": "PC",
+            "rank": "champion",
+            "kd": 1.4
+        },
+        {
+            "name": "GrilGamer.xoxo",
+            "platform": "PC",
+            "rank": "platinum",
+            "kd": 1.1
+        }
+    ]
+}
