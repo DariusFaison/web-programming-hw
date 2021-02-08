@@ -1,0 +1,14 @@
+button {
+    font-size: 2rem;
+    width: 40px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.red {
+    background-color: #FFAAAA;
+}
+
+.green {
+    background-color: #AAFFAA
+}
