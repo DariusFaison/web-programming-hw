@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Darius Faison's Supercool Interactive Webpage</title>
+        <meta name="description" content="Currently, this is all placeholder data for the first commit.">
+        <link rel="stylesheet" href="project2.css">
+        <script src="project2.js"></script>
+    </head>
+
+    <body>
+        <div id="top">
+            <h1>Big Webpage Tings Bruv</h1>
+        </div>
+        <div id="middle">
+            <script>
+                fetch('https://picsum.photos/200')
+                .then(data=>{return data.json[0].id})
+                .then(res=>{console.log(res)})
+                .catch(error=>console.log(error));
+            </script>
+            <p>Refresh the page to find a random picture!</p>
+            <ul class="inline-block">
+                <li class="inline-block">It could be a dog!</li>
+                <li class="inline-block">Or a mountain!</li>
+                <li class="inline-block">I used Lorem Picsum to do this!</li>
+            </ul>
+        </div>
+    </body>
+</html>

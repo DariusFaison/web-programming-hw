@@ -1,0 +1,63 @@
+@keyframes fade{
+    0% {
+        color: firebrick;
+    }
+    25%{
+        color: coral;
+    }
+
+    50%{
+        color: pink;
+    }
+
+    75%{
+        color: coral;
+    }
+    100% {
+        color: firebrick;
+    }
+}
+
+*{
+    background-color: wheat;
+}
+
+ul {
+    font-size: auto;
+    font-weight: normal;
+}
+
+#top{
+    font-family: sans-serif;
+    font-size: 50px;
+    height: auto;
+    width:100%;
+    position: fixed;
+    top: 0;
+    left: 25vw;
+    animation-name: fade;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+#middle{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 25px;
+    height:50%;
+    width: auto;
+    font-weight: bold;
+    position: absolute;
+    top: 20vh;
+    left:45vw;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 200px;
+}
+
+.picture{
+    position: fixed;
+    bottom: 10vh;
+    left: 40vw;
+}
